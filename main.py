@@ -58,13 +58,10 @@ temperatura = st.slider(
 # Limpar a memoria
 st.markdown("---")
 
-if st.button(" Limpar conversa"):
+if st.button("Limpar conversa"):
         st.session_state.mensagens = []
         st.rerun()	
 
-if st.button(" Limpar conversa"):
-        st.session_state.mensagens = []
-        st.rerun()
 
     # Desenvolvedor(a)
 st.markdown("---")
